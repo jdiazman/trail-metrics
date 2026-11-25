@@ -1,1 +1,0 @@
-This files were the initial python playground for the Strava Client. Still valuable as reference for stack migration.
