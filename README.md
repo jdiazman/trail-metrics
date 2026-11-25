@@ -28,7 +28,7 @@ Work in progress includes:
 
 ## 🧠 Planned Technologies
 - Backend: Node.js + Express + TypeScript
-- Frontend: React + TypeScript
+- Frontend: React + TypeScript + Vite
 - TypeScript Strava API Client (Module)
 
 ## 🤝 Contributing
