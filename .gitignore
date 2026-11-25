@@ -1,24 +1,88 @@
+# Environment variables
 .env
+.env.*
+!.env.example
+
 # Virtual environments
 venv/
 .venv/
 env/
 ENV/
 
-# Byte-compiled / caches
+# Python bytecode / caches
 __pycache__/
 *.py[cod]
 
-# Build / packaging
+# Node.js dependencies
+node_modules/
+jspm_packages/
+
+# Build / generated output
 build/
 dist/
+out/
+.next/
+coverage/
+*.tsbuildinfo
 *.egg-info/
 pip-wheel-metadata/
 
-#resources
-*.png
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Package-manager caches
+.npm/
+.eslintcache
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Testing
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# React / frontend
+.cache/
+.parcel-cache/
+.storybook-out/
+
+# Express / uploads
+uploads/
+tmp/
+
+# IDE / editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Resources
 *.jpg
-*.pdf
 *.gif
+*.pdf
 *.mp4
 *.mov

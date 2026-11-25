@@ -1,0 +1,12 @@
+services:
+  postgres:
+    image: postgres:18
+    container_name: trail-metrics-db
+    environment:
+      POSTGRES_USER: trailmetrics
+      POSTGRES_PASSWORD: lkl_password
+      POSTGRES_DB: trailmetrics
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:

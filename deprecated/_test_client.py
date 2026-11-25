@@ -4,7 +4,7 @@ Run manually to verify authentication and activity retrieval and compare our
 one-year aggregation against Strava /athletes/{id}/stats blocks.
 """
 
-from client import StravaClient
+from deprecated._client import StravaClient
 import datetime
 import json
 import os

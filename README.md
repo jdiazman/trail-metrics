@@ -1,58 +1,45 @@
-# 🏃‍♂️ DataDrivenAthlete
-A lightweight application designed to analyze Strava data and generate personalized training plans using AI.
+<div align="center">
+  <table>
+    <tr>
+      <td width="180" align="center">
+        <img src="tm-logo.png" alt="TrailMetrics logo" width="160" height="160" style="border-radius: 50%; object-fit: cover;">
+      </td>
+      <td>
+        <h1>TrailMetrics</h1>
+        <p><strong>Personal endurance analytics powered by Strava.</strong></p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-## 📌 Description
-DataDrivenAthlete aims to help athletes better understand their performance and plan their training intelligently. By processing activity data from Strava, the app will generate reports, identify patterns, and propose tailored training sessions powered by AI models.
+An open source personal tool to explore, analyze and visualize endurance training data through Strava API data. Aimed to help out planning and race preparation for endurance athletes.
 
 ## 🚧 Project Status
 This repository is currently in its early development phase.  
 Work in progress includes:
-- Initial integration with the Strava API
-- Basic activity data processing
-- Drafting the AI analysis workflow
 - Setting up the project structure
+- Refactoring to switch stack (Python client to Full Stack App)
 
 ## 🎯 Goals
 - Analyze key training metrics
-- Automatically generate training reports
-- Recommend future sessions based on progress
-- Provide a clear, continuous view of athlete development
+- Generate training reports
+- Provide a clear, continuous view of athlete development and training lods to help in planning.
+- Traning load goals and achievements
 
 ## 🧠 Planned Technologies
-- Python
-- Strava API
-- OpenAI for analysis and recommendations
+- Backend: Node.js + Express + TypeScript
+- Frontend: React + TypeScript + Vite
+- TypeScript Strava API Client (Module)
 
-## 📂 Project Structure
+## 🤝 Contributing
+The project is under construction, but suggestions and ideas are welcome.
 
-```
-```
-/ (repo root)
-├─ README.md
-├─ .env
-├─ .env.example
-├─ .gitignore
-├─ requirements.txt
-├─ src/
-│  ├─ main.py                      # entry point
-│  ├─ ai/                          # AI orchestration / prompts
-│  ├─ analysis/
-│  │  ├─ metrics.py
-│  │  └─ serializer.py
-│  ├─ config/
-│  │  └─ settings.py               # env / config loading
-│  ├─ report/
-│  │  ├─ charts.py
-│  │  └─ generator.py
-│  ├─ storage/                      # persistence layer (DB, files)
-│  └─ strava/
-│     ├─ client.py
-│     └─ test_client.py
-├─ tests/
-│  ├─ unit/
-│  └─ integration/
-```
+## 📄 License
+To be added later.
 
+
+### Deprecated Documentation - Work In Progress
+TODO: Move to Strava Client readme
 ## 📡 Strava API
 
 Reference: https://developers.strava.com/docs/reference/ (API reference)  
@@ -92,8 +79,4 @@ Notes:
 - Follow Strava’s API rate limits and terms.
 - For automated workflows, implement token refresh using the refresh token.
 
-## 🤝 Contributing
-The project is under construction, but suggestions and ideas are welcome.
 
-## 📄 License
-To be added later.
