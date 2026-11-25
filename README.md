@@ -1,4 +1,17 @@
-# 🏃‍♂️ TrailMetrics
+<div align="center">
+  <table>
+    <tr>
+      <td width="180" align="center">
+        <img src="tm-logo.png" alt="TrailMetrics logo" width="160" height="160" style="border-radius: 50%; object-fit: cover;">
+      </td>
+      <td>
+        <h1>TrailMetrics</h1>
+        <p><strong>Personal endurance analytics powered by Strava.</strong></p>
+      </td>
+    </tr>
+  </table>
+</div>
+
 An open source personal tool to explore, analyze and visualize endurance training data through Strava API data. Aimed to help out planning and race preparation for endurance athletes.
 
 ## 🚧 Project Status

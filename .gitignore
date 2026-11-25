@@ -16,7 +16,6 @@ dist/
 pip-wheel-metadata/
 
 #resources
-*.png
 *.jpg
 *.pdf
 *.gif
