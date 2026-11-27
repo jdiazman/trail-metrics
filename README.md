@@ -26,10 +26,25 @@ Work in progress includes:
 - Provide a clear, continuous view of athlete development and training lods to help in planning.
 - Traning load goals and achievements
 
-## 🧠 Planned Technologies
+## 🧠 Architecture
 - Backend: Node.js + Express + TypeScript
+  - TypeScript Strava API Client (Module)
 - Frontend: React + TypeScript + Vite
-- TypeScript Strava API Client (Module)
+
+## Getting Started
+Use the following commands to set up the project locally:
+```bash
+# Clone the repository
+git clone https://github.com/trailmetrics/trailmetrics.git
+# Navigate to the project directory
+cd trailmetrics
+# Install dependencies for the backend
+cd app/api
+npm install
+# Install dependencies for the frontend
+cd ../web
+npm install
+```
 
 ## 🤝 Contributing
 The project is under construction, but suggestions and ideas are welcome.

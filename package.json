@@ -6,6 +6,14 @@
     "apps/*"
   ],
   "scripts": {
+    "dev:api": "npm run dev --workspace @trail-metrics/api",
+    "dev:web": "npm run dev --workspace @trail-metrics/web",
+    "dev": "concurrently \"npm run dev --workspace @trail-metrics/web\" \"npm run dev --workspace @trail-metrics/api\"",
+    "build": "npm run build --workspace @trail-metrics/web && npm run build --workspace @trail-metrics/api",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
   },
   "author": "jdiazmanteca@gmail.com"
 }
